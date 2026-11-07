@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Sruthi Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🛍️ Sruthi Shopping</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<div class="form-container">
+    <h2>Create Account</h2>
+
+    <form id="registerForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <input type="password" id="password"
+               placeholder="Password" required minlength="6">
+
+        <input type="tel" id="phone" placeholder="Phone Number">
+
+        <button type="submit">Register</button>
+    </form>
+
+    <p id="message"></p>
+
+    <p>Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+</div>
+
+<script src="js/register.js"></script>
+
+</body>
+</html>
